@@ -20,6 +20,7 @@ class Constants {
 //    let profilePic = "http://localhost:8045/profilePic"
     
     
+    
     let base_url = "https://82f4-61-247-238-221.ngrok-free.app"
     let admin_url = "https://8d62-61-247-238-221.ngrok-free.app/checkAdmin"
     let getDetailsUrl = "https://8d62-61-247-238-221.ngrok-free.app/getEmployeeDetails"
