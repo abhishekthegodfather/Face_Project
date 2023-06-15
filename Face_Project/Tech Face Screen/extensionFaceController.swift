@@ -19,7 +19,6 @@ extension FacePreviewViewController {
         
         guard let empImage = emp_image.first else {return}
         Presenter.shared.getAndPostOneImageHandler(urlString: Constants.shared.detectAndCompare, presentingViewController: self, image: empImage) { [weak self] result in
-            print(result)
             if let result = result as? [String: Any] {
                 if let statusBody = result["status_body"] as? [String: Any] {
                     if let message = statusBody["message"] as? [String : Any] {

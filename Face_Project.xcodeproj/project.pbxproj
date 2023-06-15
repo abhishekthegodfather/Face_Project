@@ -677,7 +677,7 @@
 				DEVELOPMENT_TEAM = 2WGMHUL9V8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Face_Project/Info.plist;
-				INFOPLIST_KEY_NSCameraUsageDescription = "i need to check";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Need To Send Image to Backend For Face Recognition";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
@@ -706,7 +706,7 @@
 				DEVELOPMENT_TEAM = 2WGMHUL9V8;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = Face_Project/Info.plist;
-				INFOPLIST_KEY_NSCameraUsageDescription = "i need to check";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Need To Send Image to Backend For Face Recognition";
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;

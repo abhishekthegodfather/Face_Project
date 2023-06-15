@@ -8,27 +8,27 @@
 import Foundation
 import UIKit
 
+//let base_url_dev : String = "http://localhost:8045"
+let base_url_prod : String = "https://82f4-61-247-238-221.ngrok-free.app"
 
 class Constants {
     static let shared = Constants()
-//    let admin_url = "http://localhost:8045/checkAdmin"
-//    let getDetailsUrl = "http://localhost:8045/getEmployeeDetails"
-//    let attendenceUrl = "http://localhost:8045/checkin_checkout"
-//    let detectAndCompare = "http://localhost:8045/detectAndCompareFace"
-//    let detectAndTechFace = "http://localhost:8045/detectAndTechFace"
-//    let sendMail = "http://localhost:8045/sendMail"
-//    let profilePic = "http://localhost:8045/profilePic"
+//    let admin_url = "\(base_url_dev)/checkAdmin"
+//    let getDetailsUrl = "\(base_url_dev)/getEmployeeDetails"
+//    let attendenceUrl = "\(base_url_dev)/checkin_checkout"
+//    let detectAndCompare = "\(base_url_dev)/detectAndCompareFace"
+//    let detectAndTechFace = "\(base_url_dev)/detectAndTechFace"
+//    let sendMail = "\(base_url_dev)/sendMail"
+//    let profilePic = "\(base_url_dev)/profilePic"
     
     
-    
-    let base_url = "https://82f4-61-247-238-221.ngrok-free.app"
-    let admin_url = "https://8d62-61-247-238-221.ngrok-free.app/checkAdmin"
-    let getDetailsUrl = "https://8d62-61-247-238-221.ngrok-free.app/getEmployeeDetails"
-    let attendenceUrl = "https://8d62-61-247-238-221.ngrok-free.app/checkin_checkout"
-    let detectAndCompare = "https://8d62-61-247-238-221.ngrok-free.app/detectAndCompareFace"
-    let detectAndTechFace = "https://8d62-61-247-238-221.ngrok-free.app/detectAndTechFace"
-    let sendMail = "https://8d62-61-247-238-221.ngrok-free.app/sendMail"
-    let profilePic = "https://8d62-61-247-238-221.ngrok-free.app/profilePic"
+    let admin_url = "\(base_url_prod)/checkAdmin"
+    let getDetailsUrl = "\(base_url_prod)/getEmployeeDetails"
+    let attendenceUrl = "\(base_url_prod)/checkin_checkout"
+    let detectAndCompare = "\(base_url_prod)/detectAndCompareFace"
+    let detectAndTechFace = "\(base_url_prod)/detectAndTechFace"
+    let sendMail = "\(base_url_prod)/sendMail"
+    let profilePic = "\(base_url_prod)/profilePic"
 
     
     func makeAlert(message: String, title: String) -> UIAlertController{
